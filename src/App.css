@@ -1,0 +1,76 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  min-width: 5rem;
+  min-height: 2.5rem;
+  margin: .25rem;
+  border: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.start{
+  background-color: #4ecf5f;
+  color: #333;
+}
+
+button.pause{
+  background-color: #2777e6;
+}
+
+button.stop{
+  background-color: #e62727;
+}
+
+.card{
+  width: 90%;
+  min-height: 3.5rem;
+  background-color: #333;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin: .5rem auto;
+}
+
+.input{
+  width: 15rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding: .25rem;
+  border-radius: .25rem;
+}
+
+.input p {
+  color: #333;
+}
+
+.control{
+  min-width: 15rem;
+  padding: .25rem;
+  margin: auto .75rem;
+}
+
+.in-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.valor-receber{
+  font-size: 5.5rem;
+  color: #4ecf5f;
+}
+
+.valor-receber::after{
+  content: "/min";
+  font-size: 5rem;
+  color: #f1c47f;
+}
